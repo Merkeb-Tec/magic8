@@ -13,17 +13,26 @@
 </head>
 <body>
     <header class="title" style="font-family: 'Henny Penny', cursive;">Merkeb's Magic 8 ball</header>
-    <form class="content">
+    <form>
         <h1 id="info">Ask me anthing!</p>
-        <input type="text" id="question" class="input">
+        <input type="text" id="question" name="question"  class="input">
         <br>
-        <button class="ask" name="ask">Ask</button>
+        <button class="ask" id="ask" name="submit">Ask</button>
         <br>
     </form>
-    <div id="output" class="output"></div>
+    <div id="output"></div>
     <br>
     <div id="answers" class="answers">
         <img src="./images/magic8ball_start.png" alt="">
+        <img src="./images/magic8ball_1.png" alt="" id="one" class="hidden">
+        <img src="./images/magic8ball_2.png" alt="" id="two" class="hidden" > 
+        <img src="./images/magic8ball_3.png" alt="" id="three" class="hidden"> 
+        <img src="./images/magic8ball_4.png" alt="" id="four" class="hidden"> 
+        <img src="./images/magic8ball_5.png" alt="" id="five" class="hidden"> 
+        <img src="./images/magic8ball_6.png" alt="" id="six" class="hidden"> 
+        <img src="./images/magic8ball_7.png" alt="" id="seven" class="hidden"> 
+        <img src="./images/magic8ball_8.png" alt="" id="eight" class="hidden"> 
+
     </div>
     
     <script src="./JS/script.js"></script>

@@ -7,11 +7,11 @@ body {
     text-align: center;
     width: auto;
     height: auto;
-    background-color: rgb(89, 89, 91);
+    background-color: rgb(97, 97, 99);
 }
 form {
-    width: 40%;
-    height: 40%;
+    width: auto;
+    height: auto;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -25,11 +25,14 @@ img {
     width: 300px;
     height: 50px;
     text-align: center;
-    color: black;
+    color: rgb(10, 8, 8);
 }
 .ask {
     width: 100px;
     height: 20px;
     
+}
+.hidden {
+    display: none;
 }
 
