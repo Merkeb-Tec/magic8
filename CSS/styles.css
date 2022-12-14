@@ -30,9 +30,13 @@ img {
 .ask {
     width: 100px;
     height: 20px;
+    color: rgb(10, 8, 8);
     
 }
 .hidden {
     display: none;
 }
-
+a {
+    text-decoration: none;
+    color: rgb(10, 8, 8);
+}
