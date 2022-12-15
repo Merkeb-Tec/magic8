@@ -32,7 +32,7 @@ const images = [
   "./imaes/magic8ball_17.png",
   "./imges/magic8ball_18.png",
   "./iages/magic8ball_19.png",
-  "./mages/magic8ball_20.png",
+  "./images/magic8ball_20.png",
 ];
 
 
