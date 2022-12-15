@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/CSS/styles.css">
-    <link rel="stylesheet" href="/Images/">
+    <link rel="stylesheet" href="/CSS/styles.css" type="text/css">
+    <!--<link rel="stylesheet" href="/Images/">-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap" rel="stylesheet">
@@ -13,14 +13,21 @@
 </head>
 <body>
     <header class="title" style="font-family: 'Henny Penny', cursive;">Merkeb's Magic 8 ball</header>
-    <div class="content" id="content">
-        <p id="info">Ask me anthing!</p>
-        <input type="text" id="question">
+    <form>
+        <h1 id="info">Ask me anthing!</p>
+        <input type="text" id="question" name="question"  class="input">
         <br>
-        <button>Ask</button>
+        <button class="ask" id="ask" name="submit">Ask</button>
         <br>
-        <div id="answers" class="answers"></div>
-    </div>
+    </form>
+    <div id="output"></div>
+    <button class="again" name="again"><a href="index.html">Ask Again</a></button>
+
+    <br>
+    <div id="answers" class="answers"></div>
+    
+    <script type="text/javascript" src="./JS/script.js"></script>
+
 
 </body>
 </html>
