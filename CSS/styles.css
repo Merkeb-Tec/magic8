@@ -7,7 +7,9 @@ body {
     text-align: center;
     width: auto;
     height: auto;
-    background-color: rgb(97, 97, 99);
+    background-color: rgb(109, 109, 114);
+  
+    
 }
 form {
     width: auto;
@@ -26,11 +28,13 @@ img {
     height: 50px;
     text-align: center;
     color: rgb(10, 8, 8);
+    border-radius: 30px;
 }
 .ask {
     width: 100px;
     height: 20px;
     color: rgb(10, 8, 8);
+    border-radius: 15px;
     
 }
 .hidden {
@@ -39,4 +43,8 @@ img {
 a {
     text-decoration: none;
     color: rgb(10, 8, 8);
+    
+}
+.again {
+    border-radius: 15px;
 }
